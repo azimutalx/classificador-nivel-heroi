@@ -1,6 +1,7 @@
-const nome = "Dart";
+let nome = document.getElementById("nomeInput").value;
+let xpAcumulada = parseInt(document.getElementById("xpInput").value);
 let nivel = "";
-let xpAcumulada = 1001; 
+
 
 if (xpAcumulada < 1000) {
     nivel = "Ferro";
@@ -20,6 +21,9 @@ if (xpAcumulada < 1000) {
     nivel = "Radiante";
 }
 
+
+var outputDiv = document.getElementById("output");
+outputDiv.innerHTML = "O Herói de nome " + nome + " está no nível de " + nivel;
 console.log("O Herói de nome " + nome + " está no nível de " + nivel);
 
 

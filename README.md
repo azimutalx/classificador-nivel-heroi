@@ -56,6 +56,21 @@ Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
 
+## teste
+
+Digite o nome do seu personagem:
+<input type="text" id="nomeInput">
+
+Digite a quantidade de xp (de 1000 a 10000):
+<input type="number" id="xpInput" min="1000" max="10000">
+
+<button onclick="calcularEExibirNivel()">Calcular Nível</button>
+
+<div id="output"></div>
+
+<script src="index.js"></script>
+
+
 
 ## 👨‍💻 Expert
 
