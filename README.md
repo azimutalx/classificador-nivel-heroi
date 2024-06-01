@@ -56,34 +56,6 @@ Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
 
-## teste
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo de Interação Markdown e HTML</title>
-</head>
-<body>
-    <h1>Exemplo de Interação Markdown e HTML</h1>
-
-    <p>Digite o nome do seu personagem:</p>
-    <input type="text" id="nomeInput">
-
-    <p>Digite a quantidade de xp (de 1000 a 10000):</p>
-    <input type="number" id="xpInput" min="1000" max="10000">
-
-    <button onclick="calcularEExibirNivel()">Calcular Nível</button>
-
-    <div id="output"></div>
-
-    <script src="index.js"></script>
-</body>
-</html>
-
-
-
 ## 👨‍💻 Expert
 
 <p>

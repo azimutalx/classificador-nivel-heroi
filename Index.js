@@ -1,5 +1,5 @@
-let nome = document.getElementById("nomeInput").value;
-let xpAcumulada = parseInt(document.getElementById("xpInput").value);
+let nome = "Darius"
+let xpAcumulada = 1001;
 let nivel = "";
 
 
@@ -22,8 +22,6 @@ if (xpAcumulada < 1000) {
 }
 
 
-var outputDiv = document.getElementById("output");
-outputDiv.innerHTML = "O Herói de nome " + nome + " está no nível de " + nivel;
 console.log("O Herói de nome " + nome + " está no nível de " + nivel);
 
 
